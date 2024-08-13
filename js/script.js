@@ -1,6 +1,6 @@
 var meuFormulario = document.getElementById("formulario");
 meuFormulario.addEventListener("submit", function(event) {
-  event.preventDefault(); 
+  event.preventDefault();
 
   adicionarValor();
   mostrarPares();
@@ -33,4 +33,3 @@ function mostrarPares() {
     }
   }
 }
-
